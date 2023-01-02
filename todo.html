@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="style1.css">
+<title>Todo List</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body class="body">
+    <div class="new-content">
+    <nav class="main-menu">
+            <div class="ul">
+                <li class="has-subnav">
+                    <a href="#">
+                        <img src="./image.jpg" alt="">
+                        <h3>Pooja sharma</h3>
+
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                       <i class="fa fa-list fa-2x"></i>
+                        <span class="nav-text">
+                            Forms
+                        </span>
+                    </a>
+                    
+                </li>
+                <li class="has-subnav">
+                    <a href="#">
+                       <i class="fa fa-folder-open fa-2x"></i>
+                        <span class="nav-text">
+                            Pages
+                        </span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href="./graph.html">
+                        <i class="fa fa-bar-chart-o fa-2x"></i>
+                        <span class="nav-text">
+                            Graphs and Statistics
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-font fa-2x"></i>
+                        <span class="nav-text">
+                           Quotes
+                        </span>
+                    </a>
+                </li>
+                <li>
+                   <a href="./calan.html">
+                       <i class="fa fa-table fa-2x"></i>
+                        <span class="nav-text">
+                            calander
+                        </span>
+                    </a>
+                </li>
+                <li>
+                   <a href="./map.html">
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        <span class="nav-text">
+                            Maps
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./docu.html">
+                       <i class="fa fa-info fa-2x"></i>
+                        <span class="nav-text">
+                            Documentation
+                        </span>
+                    </a>
+                </li>
+            </div>
+
+            <div class="logout">
+                <li>
+                   <a href="./index.html">
+                         <i class="fa fa-power-off fa-2x"></i>
+                        <span class="nav-text">
+                            Logout
+                        </span>
+                    </a>
+                </li>  
+            </div>
+        </nav>
+          <div class="container mt-3">
+            
+            <form>
+                <div class="mb-3">
+                  <input placeholder="Enter Todo Here" type="text" class="form-control rounded-0" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 rounded-0">Save Todo</button>
+              </form>
+    
+    
+              <ul class="list-group mt-5">
+                 <!-- <li class="list-group-item rounded-0">Some Todo Here <button class="btn btn-danger btn-sm rounded-0 float-end">X</button> </li> -->
+              </ul>
+          </div>
+</div>
+ <script src="main1.js"></script>
+ <script>
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+  }
+  
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+  </script>
+</body>
+</html>
